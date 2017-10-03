@@ -86,7 +86,6 @@ end
 plot(E_res);title('Convergence Graph');
 
 figure();
-u(u<0) = 0;
 imshow(u)
 % ;title('Restored Image');
 
